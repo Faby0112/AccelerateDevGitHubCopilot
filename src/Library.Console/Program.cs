@@ -2,6 +2,7 @@
 using Library.Infrastructure.Data;
 using Library.ApplicationCore;
 using Microsoft.Extensions.Configuration;
+using Library.Infrastructure.Data;
 
 var services = new ServiceCollection();
 
