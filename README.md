@@ -34,5 +34,5 @@ Library App es una aplicación diseñada para gestionar la colección de libros 
 - **Logger**: Utilidad para el registro de logs.
 
 ## Uso
-1. Clona el repositorio:  
+Para ejecutar la aplicación de consola, navegue al directorio `src/Library.Console` y ejecute el siguiente comando:
    
