@@ -2,6 +2,7 @@
 using Library.Infrastructure.Data;
 using Library.ApplicationCore;
 using Microsoft.Extensions.Configuration;
+using Library.Infrastructure.Data;
 
 var services = new ServiceCollection();
 
@@ -14,6 +15,7 @@ services.AddSingleton<IConfiguration>(configuration);
 
 services.AddScoped<IPatronRepository, JsonPatronRepository>();
 services.AddScoped<ILoanRepository, JsonLoanRepository>();
+services.AddScoped<JsonLoanRepository>();
 services.AddScoped<ILoanService, LoanService>();
 services.AddScoped<IPatronService, PatronService>();
 
