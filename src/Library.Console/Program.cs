@@ -15,6 +15,7 @@ services.AddSingleton<IConfiguration>(configuration);
 
 services.AddScoped<IPatronRepository, JsonPatronRepository>();
 services.AddScoped<ILoanRepository, JsonLoanRepository>();
+services.AddScoped<JsonLoanRepository>();
 services.AddScoped<ILoanService, LoanService>();
 services.AddScoped<IPatronService, PatronService>();
 
